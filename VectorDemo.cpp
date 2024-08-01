@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include "bits/stdc++.h"
 
 using namespace std;
 
@@ -7,7 +7,7 @@ int main()
 {
     // Create Vector type of integer
     vector<int> v;
-
+    
     // Check Capacity Of Vector
     cout << endl<< "Capacity Of Vector is "<< v.capacity();
 
@@ -43,7 +43,7 @@ int main()
     }
 
 
-    // // Clear Function If we clear the vector it clear the size of vector, Capacity is Same
+    // Clear Function If we clear the vector it clear the size of vector, Capacity is Same
     // cout << endl << "Before Clear The Vector Size is "<< v.size() <<" Capacity is "<<v.capacity();
     // v.clear();
     // cout << endl << "After  Clear The Vector Size is "<< v.size() <<" Capacity is "<<v.capacity();
